@@ -36,6 +36,7 @@ Fenêtre Principale avec :
 - Un premier champ pour un "Identifiant"
 - Un second champ pour un "mot de passe"
 - 3 boutons :
+  
       - bouton "connexion" pour vérifier les informations (raccourcis : touche entrée)
       - bouton "Créer un compte" ouvrir une fenêtre d'inscription
       - bouton "Reset" qui vide tous les champs du formulaire
@@ -45,12 +46,14 @@ Fenêtre d'inscription avec :
 - Un second champ pour un "mot de passe"
 - Un troisième champ pour la confirmation du mot de passe
 - 2 boutons :
+  
       - bouton "créer le compte" pour créer un profils identifiant/mot de passe une fois tout les champs correctement remplie
       - bouton "retour" pour fermer la fenêtre d'inscription 
 
 Gestion de base de données avec SQLite
 - Création d'un fichier data_user.db même répertoire que le code source
 - Le fichier contient une table "users" avec les colonnes suivantes :
+  
       - "id" : Identifiant unique
       - "username" : Identifiant choisie par l'utilisateur
       - "password_hash" : Mot de passe choisie par l'utilisateur haché en SHA-256
@@ -60,9 +63,11 @@ Gestion de base de données avec SQLite
 - Les mots de passe ne s'affichent pas à l'écran
 
 --Identifiant/mot de passe--
-- Compte test prêt à l'usage
-        - identifiant  : test
-        - mot de passe : test 
+- Compte test prêt à l'usage :
+
+        identifiant  : test
+        mot de passe : test 
 
 --Exécution--
+
 python3 Formulaire.py
