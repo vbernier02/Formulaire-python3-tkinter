@@ -60,9 +60,9 @@ Gestion de base de données avec SQLite
 - Les mots de passe ne s'affichent pas à l'écran
 
 --Identifiant/mot de passe--
-Compte test prêt à l'usage
-      identifiant  : test
-      mot de passe : test 
+- Compte test prêt à l'usage
+        -identifiant  : test
+        -mot de passe : test 
 
 --Exécution--
 python3 Formulaire.py
