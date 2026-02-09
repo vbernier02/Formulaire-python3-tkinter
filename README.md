@@ -61,8 +61,8 @@ Gestion de base de données avec SQLite
 
 --Identifiant/mot de passe--
 - Compte test prêt à l'usage
-        -identifiant  : test
-        -mot de passe : test 
+        - identifiant  : test
+        - mot de passe : test 
 
 --Exécution--
 python3 Formulaire.py
