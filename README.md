@@ -65,4 +65,4 @@ Compte test prêt à l'usage
       mot de passe : test 
 
 --Exécution--
-- python3 Formulaire.py
+python3 Formulaire.py
